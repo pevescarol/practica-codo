@@ -1,0 +1,257 @@
+nav .collapse .green{
+    color: rgb(62, 177, 62)!important;
+}
+.btn-success{
+    background-color: rgb(62, 177, 62)!important;
+}
+.navbar{
+    background-color: #343a40!important;
+}
+.carousel {
+    height: 90vh;
+}
+.carousel-item{
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+ }
+ .carousel-item img{
+     height: 90vh;
+ }
+ .carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+    height: 90vh;
+}
+
+.carousel-caption{
+    bottom: 120px;
+    width: 40%;
+}
+
+.carousel-caption h5{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.carousel-caption p{
+    font-weight: 400;
+}
+.about{
+    margin-top: 20px;
+}
+.centrar{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.centrar span{
+    font-weight: 300;
+    font-size: 20px;
+}
+.card-body a {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0.1em 0.3em;
+}
+.card-body .react{
+    background-color: rgb(53, 155, 141);
+}
+.card-text{
+    font-size: 13px;
+    line-height: 24px;
+}
+.hawai{
+    margin-top: 2em;
+}
+.hawai .row .octubre{
+    background-color: #343a40;
+    padding-top: 20px;
+    color: #fff;
+}
+.hawai .row .card{
+    padding: 0;
+    margin: 0;
+}
+.hawai .card-title{
+    font-size: 30px;
+}
+.form{
+    max-width: 700px;
+    margin: auto;
+}
+.form-text{
+    font-size: 13px;
+}
+.form .title p{
+    font-size: 15px;
+    text-align: center;
+}
+.form .title p a{
+    text-decoration: dotted;
+    text-decoration-line:underline;
+}
+.expand button{
+    width: 100%;
+    background-color: #90c94e;
+    border: none;
+}
+
+footer ul{
+    background-image: radial-gradient(circle at 119.64% 62.28%, #4a6863 0, #37615e 25%, #1f5959 50%, #005156 75%, #004a53 100%);
+    padding: 1em 0;
+}
+footer ul .nav-link{
+    color: #fff;
+    font-size: 13px;
+}
+
+section .tickets{
+    position: relative;
+    height: 100vh;
+    top:80px;
+    max-width: 800px; 
+    margin:auto;
+}
+.tickets .container{
+    margin-top: 7em;
+}
+.tickets .card-b{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    max-width: 700px;
+    margin: auto;
+}
+
+.tickets .card{
+    text-align: center;
+    width: 230px;
+    padding: 1.2em 0;
+}
+.tickets .card-body p, .tickets .card-body h5{
+    font-size: 16px;
+}
+.tickets .card-body p:nth-child(3){
+    font-weight: bold;
+}
+.tickets .btn{
+    width: 100%;
+    background-color: #90c94e;
+    border: none;
+}
+
+
+@media(max-width:430px){
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-caption{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        bottom: 200px;
+    }
+    
+    .carousel-caption h5{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel .btn{
+        margin-top: 1em;
+    }
+    .carousel-item .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-oct{
+        padding-bottom: 30px;
+    }
+    .about .card{
+        margin: 1em 0;
+    }
+    .tickets .card-b{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul .nav-link{
+        font-size: 16px;
+    }
+}
+
+
+
+@media(max-width:768px){
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-caption{
+        width: 71%;
+        display: flex;
+        justify-content: center;
+        bottom: 160px;
+    }
+    .carousel-caption h5{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel .btn{
+        margin-top: 1em;
+    }
+    .carousel-item .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .card{
+        margin: 1em 0;
+    }
+    .about-oct{
+        padding-bottom: 30px;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul .nav-link{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:991px){
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-oct{
+        padding-bottom: 30px;
+    }
+}
